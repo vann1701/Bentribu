@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class UC : MonoBehaviour{
+
+    public void GoToCanvas()
+    {	
+    	SceneManager.LoadScene("UC");
+    }
+    public void ExitApplication()
+    {
+	if (Input.GetKeyDown (KeyCode.Escape))
+	Application.Quit();
+    }
+}
