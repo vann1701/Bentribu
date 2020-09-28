@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class arcamera : MonoBehaviour
+{
+    public void GoToARCamera()
+    {	
+    	Application.LoadLevel("sample");
+    }
+    public void ExitApplication()
+    {
+	Application.Quit();
+    }
+}
