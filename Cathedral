@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Cathedral : MonoBehaviour{
+
+    public void GoToCanvas()
+    {	
+    	SceneManager.LoadScene("Baguio Cathedral");
+    }
+    public void ExitApplication()
+    {
+	if (Input.GetKeyDown (KeyCode.Escape))
+	Application.Quit();
+    }
+}
